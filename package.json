@@ -2,6 +2,7 @@
   "name": "logcatwin",
   "displayName": "logcatwin",
   "description": "",
+  "publisher": "acekumon",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.86.0"
