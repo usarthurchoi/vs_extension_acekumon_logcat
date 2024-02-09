@@ -1,4 +1,4 @@
-Android LogCat Viewer Extension for VS Code
+Acekumon Android LogCat Viewer Extension for VS Code
 
 This extension aids in debugging Android applications by filtering and displaying Android LogCat output directly within Visual Studio Code. Users can specify a log file directory for offline inspection, and based on their preferences, filter the LogCat output by typing a filter word or selecting from a list of installed packages on the device.
 
@@ -20,7 +20,7 @@ Prerequisites
 
 Setup
 
-1. Install the Extension: Search for "Android LogCat Viewer" in the VS Code Extensions Marketplace and install it.
+1. Install the Extension: Search for "Acekumon Android LogCat Viewer" in the VS Code Extensions Marketplace and install it.
 2. Specify Log File Directory: Upon first run, the extension will prompt you to specify a directory for saving the logcat.txt file. This step is mandatory; the extension will exit if a directory is not specified.
 
 Usage
@@ -32,20 +32,17 @@ Usage
 Extension Settings
 
 This extension contributes the following settings:
-- myExtension.usePackagePicker: Enable picking packages from a list for filtering LogCat output. If set to false, users will input a filter word directly.
+
+- acekumon.captureLogCat: Enable picking packages from a list for filtering LogCat output. If set to false, users will input a filter word directly. Once filters obtained. It will apply filters to the LogCat log stream. And the filtered log output will be displayed in the VS code output channel, and a logcat.txt on theuser designated directory for off-line inspection.
+
+- acekumon.stopLogCat: Stop Logcat logging.
 
 Contributing
 
-We welcome contributions and suggestions! Please open an issue or submit a pull request on our GitHub repository.
+We welcome contributions and suggestions! Please open an issue or submit a pull request on our GitHub repository, https://github.com/usarthurchoi/vs_extension_acekumon_logcat.git
 
 License
 
 This extension is licensed under the MIT License - see the LICENSE file for details.
 
-Notes for Further Customization:
 
--Replace "Android LogCat Viewer" with the actual name of your extension.
--Update the version requirement for Visual Studio Code (v1.XX.X) to match your extension's compatibility.
--The GitHub repository URL placeholder ([#]) should be replaced with the actual URL to your extension's repository.
--If your extension provides additional commands or features not covered here, be sure to document those as well.
--Ensure all prerequisites and setup instructions are accurate and comprehensive, so users can easily get started with your extension.
