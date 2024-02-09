@@ -4,7 +4,7 @@ This extension aids in debugging Android applications by filtering and displayin
 
 Features
 
--Log File Directory Specification: Users must specify a directory for the logcat.txt file where filtered LogCat outputs are saved.
+-Log File Directory Specification: The location of the log file will be the workspace root directory. The log file name will be 'logcat.txt'. If the workspace root is null, Users must specify a directory for the logcat.txt file where filtered LogCat outputs are saved. Otherwise, the startLogcat command will fail.
 
 -Flexible Filtering: Depending on the extension settings, users can filter the LogCat output by typing a filter word or selecting from installed packages on an Android device.
 
