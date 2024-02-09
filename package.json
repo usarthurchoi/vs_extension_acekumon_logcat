@@ -3,6 +3,10 @@
   "displayName": "logcatwin",
   "description": "",
   "publisher": "acekumon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usarthurchoi/vs_extension_acekumon_logcat.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.86.0"
