@@ -1,0 +1,53 @@
+{
+  "name": "logcatwin",
+  "displayName": "logcatwin",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "acekumon LogCat Configuration",
+      "properties": {
+        "acekumon.usePackagePicker": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable picking packages from a list. If false, you'll input a filter word directly."
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "acekumon.captureLogCat",
+        "title": "acekumon: Capture LogCat"
+      },
+      {
+        "command": "acekumon.stopLogCat",
+        "title": "acekumon: Stop LogCat"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.86.0",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "adbkit": "^2.11.1"
+  }
+}
