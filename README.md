@@ -16,7 +16,7 @@ Getting Started
 Prerequisites
 
 -Ensure that you have the Android SDK installed and that adb (Android Debug Bridge) is correctly set up and accessible from your system's PATH.
-- Visual Studio Code v1.XX.X or higher.
+- Visual Studio Code v1.86.1 or higher.
 
 Setup
 
