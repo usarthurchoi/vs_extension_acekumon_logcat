@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/usarthurchoi/vs_extension_acekumon_logcat.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.86.0"
   },
